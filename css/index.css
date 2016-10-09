@@ -443,7 +443,7 @@ img {
 }
 
 .bg .container .content .works-ps .title.active-move {
-  transform: translate3d(-569px, -156px, 0) skewX(45deg);
+  transform: translate3d(-548px, -156px, 0) skewX(45deg);
 }
 
 .bg .container .content .works-ps .title p {
