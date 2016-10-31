@@ -1,281 +1,253 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="./js/jquery.js"></script>
-    <script src="./js/index.js"></script>
-    <link rel="stylesheet" href="./css/index.css">
-    <title>个人主页</title>
-    <link rel="stylesheet" href="../homepage/css/index.css">
+<title> 个人主页</title>
+	<meta name="viewport"
+		  content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Taksi Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<!-- Custom Theme files -->
+<link href="css/style.css" rel='stylesheet' type='text/css' />	
+<script src="js/jquery.min.js"> </script>
+<!--webfonts-->
+  <link href='http://fonts.useso.com/css?family=PT+Mono|Abril+Fatface' rel='stylesheet' type='text/css'>
+<!--//webfonts-->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+	<script src="js/index.js"></script>
+<!--/script-->
+<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+				});
+			});
+</script>
+	<script src="./js/swiper.min.js"></script>
+	<link rel="stylesheet" href="./css/swiper.min.css">
+<link rel="stylesheet" href="./css/swiper.css">
+
 </head>
 <body>
-    <div class="bg">
-        <div class="container">
-            <div class="banner">
-                <div class="curtain"></div>
-                <div class="banner-box-self">
-                    <div class="myself"></div>
-                    <div class="banner-box banner1"></div>
-                    <div class="banner-box banner2"></div>
-                    <div class="banner-box banner3"></div>
-                    <div class="banner-box banner4"></div>
-                </div>
-            </div>
-            <div class="banner-big">
-                <div class="curtain"></div>
-                <div class="banner-box-self">
-                    <div class="myself"></div>
-                    <div class="banner-box banner1"></div>
-                    <div class="banner-box banner2"></div>
-                    <div class="banner-box banner3"></div>
-                    <div class="banner-box banner4"></div>
-                </div>
-            </div>
-            <div class="banner-small">
-                <div class="curtain"></div>
-                <div class="banner-box-self">
-                    <div class="myself"></div>
-                    <div class="banner-box banner1"></div>
-                    <div class="banner-box banner2"></div>
-                    <div class="banner-box banner3"></div>
-                    <div class="banner-box banner4"></div>
-                </div>
-            </div>
-            <div class="content">
-                <div class="works-ps practice">
-                    <div class="title">
-                    <p>小练习</p>
-                </div>
-                    <div class="ps-work com">
-                    <img src="image/天猫.png" alt="加载失败">
-                    <div class="cue">天猫官网</div>
-                    <a href="https://duqian0228.github.io/tianmao"></a>
-                </div>
-                    <div class="ps-work com">
-                    <img src="./image/银泰.png" alt="加载失败">
-                    <div class="cue">银泰官网</div>
-                    <a href="https://duqian0228.github.io/yintai"></a>
-                </div>
-                 </div>
-                <div class="works-ps game">
-                    <div class="title">
-                        <p>小游戏</p>
-                    </div>
-                    <div class="ps-work">
-                        <img src="./image/纸牌.png" alt="加载失败">
-                        <div class="cue">纸牌游戏</div>
-                        <a href="https://duqian0228.github.io/zhipai"></a>
-                    </div>
-                    <div class="ps-work icon">
-                        <img src="./image/五子棋.png" alt="加载失败" style="border-radius:0 ">
-                        <div class="cue">五子棋游戏</div>
-                        <a href="https://duqian0228.github.io/wuziqi"></a>
-                    </div>
-                    <div class="ps-work icon">
-                        <img src="./image/贪吃蛇.png" alt="加载失败">
-                        <div class="cue">贪吃蛇游戏</div>
-                        <a href="https://duqian0228.github.io/tanchishe"></a>
-                    </div>
-                </div>
-                <div class="works-ps ps">
-                    <div class="title">
-                        <p>PS</p>
-                    </div>
-                    <div class="ps-work">
-                        <img src="./image/汽车.png" alt="加载失败">
-                        <div class="cue">3D图标</div>
-                    </div>
-                    <div class="ps-work icon">
-                        <img src="./image/拟物练习.jpg" alt="加载失败">
-                        <div class="cue">3D图标</div>
-                    </div>
-                    <div class="ps-work icon">
-                        <img src="./image/ps.jpg" alt="加载失败">
-                        <div class="cue">2.5D图标</div>
-                    </div>
-                </div>
-                <div class="works-ps ai">
-                    <div class="title ai">
-                        <p class="ai-p">AI & 平面设计</p>
-                    </div>
-                    <div class="ps-work" style="width:550px;height:692px;">
-                        <img src="./image/low%20poly.png" alt="加载失败">
-                        <div class="cue">low poly 风景</div>
-                    </div>
-                    <div class="ps-work icon">
-                        <img src="./image/low%20poly-people.png" alt="加载失败">
-                        <div class="cue">low poly 人物</div>
-                    </div>
-                    <div class="ps-work pingmian icon">
-                        <img src="./image/平面设计.jpg" alt="加载失败">
-                        <div class="cue">平面设计</div>
-                    </div>
-                    <div class="ps-work icon banshi">
-                        <img src="./image/版式.png" alt="加载失败">
-                        <div class="cue">平面设计</div>
-                    </div>
-                </div>
-            </div>
-            <div class="content-small">
-                <div class="works-ps practice">
-                    <div class="title">
-                        <p>小练习</p>
-                    </div>
-                    <div class="ps-work com one">
-                        <img src="image/天猫.png" alt="加载失败">
-                        <div class="cue">天猫官网</div>
-                        <a href="https://duqian0228.github.io/tianmao"></a>
-                    </div>
-                    <div class="ps-work com">
-                        <img src="./image/银泰.png" alt="加载失败">
-                        <div class="cue">银泰官网</div>
-                        <a href="https://duqian0228.github.io/yintai"></a>
-                    </div>
-                </div>
-                <div class="works-ps game">
-                    <div class="title">
-                        <p>小游戏</p>
-                    </div>
-                    <div class="ps-work">
-                        <img src="./image/纸牌.png" alt="加载失败">
-                        <div class="cue">纸牌游戏</div>
-                        <a href="https://duqian0228.github.io/zhipai"></a>
-                    </div>
-                    <div class="ps-work icon">
-                        <img src="./image/五子棋.png" alt="加载失败" style="border-radius:0 ">
-                        <div class="cue">五子棋游戏</div>
-                        <a href="https://duqian0228.github.io/wuziqi"></a>
-                    </div>
-                    <div class="ps-work icon">
-                        <img src="./image/贪吃蛇.png" alt="加载失败">
-                        <div class="cue">贪吃蛇游戏</div>
-                        <a href="https://duqian0228.github.io/tanchishe"></a>
-                    </div>
-                </div>
-                <div class="works-ps ps">
-                    <div class="title">
-                        <p>PS</p>
-                    </div>
-                    <div class="ps-work">
-                        <img src="./image/汽车.png" alt="加载失败">
-                        <div class="cue">3D图标</div>
-                    </div>
-                    <div class="ps-work icon">
-                        <img src="./image/拟物练习.jpg" alt="加载失败">
-                        <div class="cue">3D图标</div>
-                    </div>
-                    <div class="ps-work icon">
-                        <img src="./image/ps.jpg" alt="加载失败">
-                        <div class="cue">2.5D图标</div>
-                    </div>
-                </div>
-                <div class="works-ps ai">
-                    <div class="title ai">
-                        <p class="ai-p">AI & 平面设计</p>
-                    </div>
-                    <div class="ps-work" style="height:100%;width:100%;">
-                        <img src="./image/low%20poly.png" alt="加载失败">
-                        <div class="cue">low poly 风景</div>
-                    </div>
-                    <div class="ps-work icon">
-                        <img src="./image/low%20poly-people.png" alt="加载失败">
-                        <div class="cue">low poly 人物</div>
-                    </div>
-                    <div class="ps-work icon">
-                        <img src="./image/平面设计.png" alt="加载失败">
-                        <div class="cue">平面设计</div>
-                    </div>
-                </div>
-            </div>
-            <div class="content-big">
-                <div class="works-ps practice">
-                    <div class="title">
-                        <p>小练习</p>
-                    </div>
-                    <div class="ps-work com">
-                        <img src="image/天猫.png" alt="加载失败">
-                        <div class="cue">天猫官网</div>
-                        <a href="https://duqian0228.github.io/tianmao"></a>
-                    </div>
-                    <div class="ps-work com">
-                        <img src="./image/银泰.png" alt="加载失败">
-                        <div class="cue">银泰官网</div>
-                        <a href="https://duqian0228.github.io/yintai"></a>
-                    </div>
-                </div>
-                <div class="works-ps game">
-                    <div class="title">
-                        <p>小游戏</p>
-                    </div>
-                    <div class="ps-work">
-                        <img src="./image/纸牌.png" alt="加载失败">
-                        <div class="cue">纸牌游戏</div>
-                        <a href="https://duqian0228.github.io/zhipai"></a>
-                    </div>
-                    <div class="ps-work icon">
-                        <img src="./image/五子棋.png" alt="加载失败" style="border-radius:0 ">
-                        <div class="cue">五子棋游戏</div>
-                        <a href="https://duqian0228.github.io/wuziqi"></a>
-                    </div>
-                    <div class="ps-work icon">
-                        <img src="./image/贪吃蛇.png" alt="加载失败">
-                        <div class="cue">贪吃蛇游戏</div>
-                        <a href="https://duqian0228.github.io/tanchishe"></a>
-                    </div>
-                </div>
-                <div class="works-ps ps">
-                    <div class="title">
-                        <p>PS</p>
-                    </div>
-                    <div class="ps-work">
-                        <img src="./image/汽车.png" alt="加载失败">
-                        <div class="cue">3D图标</div>
-                    </div>
-                    <div class="ps-work icon">
-                        <img src="./image/拟物练习.jpg" alt="加载失败">
-                        <div class="cue">3D图标</div>
-                    </div>
-                    <div class="ps-work icon">
-                        <img src="./image/ps.jpg" alt="加载失败">
-                        <div class="cue">2.5D图标</div>
-                    </div>
-                </div>
-                <div class="works-ps ai">
-                    <div class="title ai">
-                        <p class="ai-p">AI & 平面设计</p>
-                    </div>
-                    <div class="ps-work" style="width:458px;height:692px;">
-                        <img src="./image/low%20poly.png" alt="加载失败">
-                        <div class="cue">low poly 风景</div>
-                    </div>
 
-                    <div class="ps-work pingmian icon">
-                        <img src="./image/平面设计.jpg" alt="加载失败">
-                        <div class="cue">平面设计</div>
-                    </div>
-                    <div class="ps-work icon" style="width:53%">
-                        <img src="./image/low%20poly-people.png" alt="加载失败">
-                        <div class="cue">low poly 人物</div>
-                    </div>
-                    <div class="ps-work icon banshi">
-                        <img src="./image/版式.png" alt="加载失败">
-                        <div class="cue">平面设计</div>
-                    </div>
-                </div>
-            </div>
-            <div class="footer">
-                <img src="./image/myself.png" alt="">
-                <div>
-                    <p class="phone">电话：<a href="javascript:;">13068036895</a></p>
-                    <p class="qq">qq：<a href="javascript:;">940856462</a></p>
-                    <p class="e-mail">e-mail：<a href="javascript:;">940856462@qq.com</a></p>
-                    <p class="map">地址：<a href="javascript:;">山西省太原市</a></p>
-                </div>
-            </div>
-        </div>
-    </div>
+	<div id="home" class="header">
+					<div class="top-header">
+						<div class="container">
+							<div class="logo">
+							  <a href="index.html"><h1>前端<span>工程师</span></h1></a>
+						    </div>
+							<!-- script-for-menu -->
+								<script>
+									$("span.menu").click(function(){
+										$(".top-menu ul").slideToggle("slow" , function(){
+										});
+									});
+								</script>
+								<!-- script-for-menu -->
+							<div class="clearfix"> </div>
+					</div>
+				</div>
+				  <div class="banner">
+					<div class="container">
+						<div  id="top" class="callbacks_container">
+						<ul class="rslides" id="slider4">
+						<li>
+									<div class="banner-info">
+										<h3>在前端路上不断摸索</h3>
+										<h4>激发我对前端的热爱之情</h4>
+									</div>
+								</li>
+								<li>
+									<div class="banner-info">
+									   <h3>Call Me : 13068036895</h3>
+										<h4>每一刻用自己最好的状态，最大的激情投入到工作中</h4>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<!--- banner Slider starts Here --->
+					<script src="js/responsiveslides.min.js"></script>
+				 <script>
+					// You can also use "$(window).load(function() {"
+					$(function () {
+					  // Slideshow 4
+					  $("#slider4").responsiveSlides({
+						auto: true,
+						pager:false,
+						nav: true,
+						speed: 500,
+						namespace: "callbacks",
+						before: function () {
+						  $('.events').append("<li>before event fired.</li>");
+						},
+						after: function () {
+						  $('.events').append("<li>after event fired.</li>");
+						}
+					  });
+				
+					});
+				  </script>
+					</div>
+				
+				   </div>
+			</div>
+
+	<div class="about">
+		<div class="container">
+		 <h3 class="tittle wel">About Me</h3>
+				<div class="about-top">
+					<div class="col-md-7 about-top-right">
+						<h4>不为模糊不清的未来过分担忧，只为清清楚楚的现在奋发图强</h4>
+						<p class="title title-first">My College</p>
+						<p class="content">太原师范学院计算机科学与技术专业</p>
+						<p class="title">My Hobbies</p>
+						<p class="content">爱好旅行，收拾屋子，喜欢一个人安安静静的享受自己的工作，自己的生活</p>
+						<p class="title">WEB Studing</p>
+						<p class="content">前端是互联网中的一门新兴行业，内容，技术也在以飞快的速度更新着，我希望自己可有投入更多的时间和精力，努力的学习新知识</p>
+					</div>
+					<div class="col-md-5 about-top-left">
+						<img src="images/wel.jpg" class="img-responsive" alt=""/>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>	 
+	</div>
+	<div class="team">
+		<div class="container">
+			<h3 class="tittle">My Works</h3>
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide" style="background-image:url(./images/nanshan.png)">
+						<a href="http://www.nanshan.com" target="_blank"></a>
+					</div>
+					<div class="swiper-slide" style="background-image:url(./images/tianmao.png)">
+						<a href="https://duqian0228.github.io/tianmao/" target="_blank"></a>
+					</div>
+					<div class="swiper-slide" style="background-image:url(./images/yintai.png)">
+						<a href="https://duqian0228.github.io/yintai/" target="_blank"></a>
+					</div>
+					<div class="swiper-slide" style="background-image:url(./images/apple.png)">
+						<a href="https://duqian0228.github.io/tianmao/" target="_blank"></a>
+					</div>
+					<div class="swiper-slide" style="background-image:url(./images/shoujitianmao.png)">
+						<a href="https://duqian0228.github.io/shoujitianmao/" target="_blank"></a>
+					</div>
+					<div class="swiper-slide" style="background-image:url(./images/todolist.jpg)">
+						<a href="https://duqian0228.github.io/todo-list/" target="_blank"></a>
+					</div>
+					<div class="swiper-slide" style="background-image:url(./images/weixin.png)">
+						<a href="https://duqian0228.github.io/tianmao/" target="_blank"></a>
+					</div>
+					<div class="swiper-slide" style="background-image:url(./images/tanchishe.png)">
+						<a href="https://duqian0228.github.io/tanchishe/" target="_blank"></a>
+					</div>
+					<div class="swiper-slide" style="background-image:url(./images/zhipai.png)">
+						<a href="https://duqian0228.github.io/zhipai/" target="_blank"></a>
+					</div>
+					<div class="swiper-slide" style="background-image:url(./images/wuziqi.png)">
+						<a href="https://duqian0228.github.io/wuziqi/" target="_blank"></a>
+					</div>
+					<div class="swiper-slide" style="background-image:url(./images/music.jpg)">
+						<a href="https://duqian0228.github.io/music/" target="_blank"></a>
+					</div>
+					<div class="swiper-slide" style="background-image:url(./images/photo.jpg)">
+						<a href="https://duqian0228.github.io/photo/" target="_blank"></a>
+					</div>
+					<div class="swiper-slide" style="background-image:url(./images/reminder.png)">
+						<a href="https://duqian0228.github.io/reminder/" target="_blank"></a>
+					</div>
+				</div>
+				<!-- Add Pagination -->
+				<div class="swiper-pagination"></div>
+			</div>
+		</div>
+	</div>
+
+	<div class="team">
+		<div class="container">
+			<h3 class="tittle">My Skills</h3>
+			<ul class="skills">
+				<li class="skill">
+					<a href="javascript:;">
+						<div class="skill-zhezhao">Html5</div>
+						<img src="./images/html5.png" alt="">
+					</a>
+				</li>
+				<li class="skill skill-first">
+					<a href="javascript:;">
+						<div class="skill-zhezhao">CSS3</div>
+						<img src="./images/CSS3.png" alt="">
+					</a>
+				</li>
+				<li class="skill">
+					<a href="javascript:;">
+						<div class="skill-zhezhao">JS</div>
+						<img src="./images/javascript.png" alt="">
+					</a>
+				</li>
+				<li class="skill skill-last">
+					<a href="javascript:;">
+						<div class="skill-zhezhao">jQuery</div>
+						<img src="./images/jquery.png" alt="">
+					</a>
+				</li>
+				<li class="skill">
+					<a href="javascript:;">
+						<div class="skill-zhezhao">Ajax</div>
+						<img src="./images/ajax.png" alt="">
+					</a>
+				</li>
+				<li class="skill">
+					<a href="javascript:;">
+						<div class="skill-zhezhao">Node</div>
+						<img src="./images/node.js.png" alt="">
+					</a>
+				</li>
+				<li class="skill">
+					<a href="javascript:;">
+						<div class="skill-zhezhao">Bootstrap</div>
+						<img src="./images/bootstrap.png" alt="">
+					</a>
+				</li>
+				<li class="skill skill-last">
+					<a href="javascript:;">
+						<div class="skill-zhezhao">Angular</div>
+						<img src="./images/angular.png" alt="">
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+     <div class="mid-section">
+	    <div class="container">
+		     <div class="mid-top">
+		        <h2>神圣的工作在每个人的日常事务里，理想的前途在于一点一滴做起。</h2>
+				<p>Divine work in every person's daily affairs, the ideal future is to start every little bit.</p>
+		     </div>
+		</div>
+	</div>
+	<div class="contact">
+			<div class="contact-map">
+				<div class="contact-form">
+					<div class="contact-head">
+						<h4>Contact</h4>
+					 </div>
+					<form> 
+					     <input type="text" class="text" value="姓名：杜倩" readonly>
+						 <input type="text" class="text" value="电话：13068036895" readonly>
+						<input type="text" class="text" value="求职意向：前端工程师" readonly>
+						<input type="text" class="text" value="邮箱：940856462@qq.com" readonly>
+						<div class="clearfix"> </div>
+					</form>
+				</div>
+			</div>
+		</div>
+	<a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+
 </body>
 </html>
