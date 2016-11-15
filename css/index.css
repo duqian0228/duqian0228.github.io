@@ -73,7 +73,6 @@ img {
   margin: auto;
   background-color: pink;
   border-radius: 30%;
-  background-image: url(../image/myself.png);
   background-size: contain;
   transition: transform .8s ease;
   z-index: 9999;
@@ -98,7 +97,6 @@ img {
 }
 
 .bg .container .banner .banner-box-self .banner-box.banner1 {
-  background-image: url(../image/banner.png);
   background-position: 0 center;
 }
 
@@ -107,7 +105,6 @@ img {
 }
 
 .bg .container .banner .banner-box-self .banner-box.banner2 {
-  background-image: url(../image/banner.png);
   background-position: -300px center;
 }
 
@@ -116,7 +113,6 @@ img {
 }
 
 .bg .container .banner .banner-box-self .banner-box.banner3 {
-  background-image: url(../image/banner.png);
   background-position: -600px center;
 }
 
@@ -125,7 +121,6 @@ img {
 }
 
 .bg .container .banner .banner-box-self .banner-box.banner4 {
-  background-image: url(../image/banner.png);
   background-position: -900px center;
 }
 
@@ -178,7 +173,6 @@ img {
   margin: auto;
   background-color: pink;
   border-radius: 30%;
-  background-image: url(../image/myself.png);
   background-size: contain;
   transition: transform .8s ease;
   z-index: 9999;
@@ -203,7 +197,6 @@ img {
 }
 
 .bg .container .banner-big .banner-box-self .banner-box.banner1 {
-  background-image: url(../image/banner-big.jpg);
   background-position: 0 center;
 }
 
@@ -216,7 +209,6 @@ img {
 }
 
 .bg .container .banner-big .banner-box-self .banner-box.banner2 {
-  background-image: url(../image/banner-big.jpg);
   background-position: -215px center;
 }
 
@@ -229,7 +221,6 @@ img {
 }
 
 .bg .container .banner-big .banner-box-self .banner-box.banner3 {
-  background-image: url(../image/banner-big.jpg);
   background-position: -435px center;
 }
 
@@ -242,7 +233,6 @@ img {
 }
 
 .bg .container .banner-big .banner-box-self .banner-box.banner4 {
-  background-image: url(../image/banner-big.jpg);
   background-position: -649px center;
 }
 
@@ -299,7 +289,6 @@ img {
   margin: auto;
   background-color: pink;
   border-radius: 30%;
-  background-image: url(../image/myself.png);
   background-size: contain;
   transition: transform .8s ease;
   z-index: 9999;
@@ -324,7 +313,6 @@ img {
 }
 
 .bg .container .banner-small .banner-box-self .banner-box.banner1 {
-  background-image: url(../image/banner-small.jpg);
   background-position: 0 center;
 }
 
@@ -338,7 +326,6 @@ img {
 }
 
 .bg .container .banner-small .banner-box-self .banner-box.banner2 {
-  background-image: url(../image/banner-small.jpg);
   background-position: -175px center;
 }
 
@@ -352,7 +339,6 @@ img {
 }
 
 .bg .container .banner-small .banner-box-self .banner-box.banner3 {
-  background-image: url(../image/banner-small.jpg);
   background-position: -363px center;
 }
 
@@ -366,7 +352,6 @@ img {
 }
 
 .bg .container .banner-small .banner-box-self .banner-box.banner4 {
-  background-image: url(../image/banner-small.jpg);
   background-position: -542px center;
 }
 

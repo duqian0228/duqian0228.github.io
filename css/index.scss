@@ -78,7 +78,6 @@ $med-size:1200px;
           margin:auto;
           background-color:pink;
           border-radius:30%;
-          background-image:url(../image/myself.png);
           background-size:contain;
           transition:transform .8s ease;
           z-index:9999;
@@ -99,28 +98,24 @@ $med-size:1200px;
           transform:scale(0,0);
           transition:transform .8s ease,left .8s ease;
           &.banner1{
-            background-image:url(../image/banner.png);
             background-position:0 center;
             &.active{
               transform:scale(1,1);
             }
           }
           &.banner2{
-            background-image:url(../image/banner.png);
             background-position:-300px center;
             &.active{
               transform:scale(1,1);
             }
           }
           &.banner3{
-            background-image:url(../image/banner.png);
             background-position:-600px center;
             &.active{
               transform:scale(1,1);
             }
           }
           &.banner4{
-            background-image:url(../image/banner.png);
             background-position:-900px center;
             &.active{
               transform:scale(1,1);
@@ -163,7 +158,6 @@ $med-size:1200px;
           margin:auto;
           background-color:pink;
           border-radius:30%;
-          background-image:url(../image/myself.png);
           background-size:contain;
           transition:transform .8s ease;
           z-index:9999;
@@ -184,7 +178,6 @@ $med-size:1200px;
           transform:scale(0,0);
           transition:transform .8s ease,left .8s ease,top .8s ease;
           &.banner1{
-            background-image:url(../image/banner-big.jpg);
             background-position:0 center;
             &.active{
               transform:scale(1,1);
@@ -194,7 +187,6 @@ $med-size:1200px;
             }
           }
           &.banner2{
-            background-image:url(../image/banner-big.jpg);
             background-position:-215px center;
             &.active{
               transform:scale(1,1);
@@ -204,7 +196,6 @@ $med-size:1200px;
             }
           }
           &.banner3{
-            background-image:url(../image/banner-big.jpg);
             background-position:-435px center;
             &.active{
               transform:scale(1,1);
@@ -214,7 +205,6 @@ $med-size:1200px;
             }
           }
           &.banner4{
-            background-image:url(../image/banner-big.jpg);
             background-position:-649px center;
             &.active{
               transform:scale(1,1);
@@ -260,7 +250,7 @@ $med-size:1200px;
           margin:auto;
           background-color:pink;
           border-radius:30%;
-          background-image:url(../image/myself.png);
+          //background-image:url(../image/myself.png);
           background-size:contain;
           transition:transform .8s ease;
           z-index:9999;
@@ -281,7 +271,6 @@ $med-size:1200px;
           transform:scale(0,0);
           transition:transform .8s ease,left .8s ease,top .8s ease;
           &.banner1{
-            background-image:url(../image/banner-small.jpg);
             background-position:0 center;
             &.active{
               transform:scale(1,1);
@@ -292,7 +281,6 @@ $med-size:1200px;
             }
           }
           &.banner2{
-            background-image:url(../image/banner-small.jpg);
             background-position:-175px center;
             &.active{
               transform:scale(1,1);
@@ -303,7 +291,6 @@ $med-size:1200px;
             }
           }
           &.banner3{
-            background-image:url(../image/banner-small.jpg);
             background-position:-363px center;
             &.active{
               transform:scale(1,1);
@@ -314,7 +301,6 @@ $med-size:1200px;
             }
           }
           &.banner4{
-            background-image:url(../image/banner-small.jpg);
             background-position:-542px center;
             &.active{
               transform:scale(1,1);
